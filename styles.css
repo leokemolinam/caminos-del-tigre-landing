@@ -23,3 +23,35 @@
 .contact-pending>p{color:var(--muted)}
 @media(max-width:1100px) and (min-width:769px){.steps-list{grid-template-columns:repeat(7,minmax(220px,1fr));gap:0}.registration-steps{grid-template-columns:1fr 1fr}}
 @media(max-width:768px){.steps-list{grid-template-columns:1fr;overflow:visible}.registration-steps{grid-template-columns:1fr}.registration-action{align-items:flex-start;flex-direction:column}}
+
+/* Fotografía institucional */
+.hero{position:relative;min-height:clamp(620px,75vh,820px);display:flex;align-items:center;background-image:linear-gradient(90deg,rgba(8,32,66,.94) 0%,rgba(8,32,66,.82) 43%,rgba(8,32,66,.22) 74%,rgba(8,32,66,.08) 100%),url("assets/seleccion-final-landing/00-HERO-comunidad-y-camino-rural.webp");background-position:center;background-size:cover;color:#fff}
+.hero-grid{display:block}
+.hero-copy{width:min(58%,720px)}
+.hero h1{color:#fff;max-width:11ch}
+.hero h1 em{color:#ffcf58}
+.hero h1 em::after{background:#fff;opacity:.3}
+.hero .eyebrow{color:#ffcf58}
+.hero .lead,.hero .microcopy{color:#fff}
+.hero .text-link{color:#fff}
+.hero .microcopy span{border-color:#fff;color:#fff}
+.photo-credit{position:absolute;right:max(1rem,calc((100vw - var(--max))/2));bottom:1rem;margin:0;color:#fff;font-size:.75rem;text-shadow:0 1px 4px #000}
+.context-photo{position:relative;margin:0;aspect-ratio:4/5;overflow:hidden;background:#dfe4df}
+.context-photo img{width:100%;height:100%;object-fit:cover;object-position:center}
+.context-photo figcaption{position:absolute;left:0;bottom:0;padding:.75rem 1rem;background:var(--blue);color:#fff;font-size:.82rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+.human-gallery{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.human-gallery figure{position:relative;margin:0;overflow:hidden;aspect-ratio:3/2;background:#dfe4df}
+.human-gallery img{width:100%;height:100%;object-fit:cover;transition:transform .45s ease}
+.human-gallery figure:hover img{transform:scale(1.025)}
+.human-gallery figcaption{position:absolute;left:0;bottom:0;padding:.65rem .9rem;background:#ffffffeb;color:var(--blue-dark);font-size:.82rem;font-weight:700}
+.roads-gallery{background:#fff}
+.roads-mosaic{display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:210px;gap:1rem}
+.roads-mosaic figure{margin:0;overflow:hidden;background:#dfe4df}
+.roads-mosaic img{width:100%;height:100%;object-fit:cover;transition:transform .45s ease}
+.roads-mosaic figure:hover img{transform:scale(1.02)}
+.roads-mosaic .roads-wide{grid-column:span 7;grid-row:span 2}
+.roads-mosaic figure:nth-child(2){grid-column:span 5}
+.roads-mosaic figure:nth-child(3){grid-column:span 5}
+.roads-mosaic figure:nth-child(4),.roads-mosaic figure:nth-child(5){grid-column:span 6}
+@media(max-width:768px){.hero{min-height:680px;background-image:linear-gradient(90deg,rgba(8,32,66,.94) 0%,rgba(8,32,66,.78) 70%,rgba(8,32,66,.42) 100%),url("assets/seleccion-final-landing/00-HERO-comunidad-y-camino-rural.webp");background-position:62% center}.hero-copy{width:100%}.photo-credit{right:.75rem}.human-gallery{grid-template-columns:1fr}.roads-mosaic{grid-template-columns:1fr;grid-auto-rows:auto}.roads-mosaic .roads-wide,.roads-mosaic figure:nth-child(n){grid-column:auto;grid-row:auto;aspect-ratio:16/9}}
+@media(prefers-reduced-motion:reduce){.human-gallery img,.roads-mosaic img{transition:none}}

@@ -4,7 +4,7 @@ Landing institucional, responsive y accesible construida con HTML, CSS y JavaScr
 
 ## Dirección visual
 
-Composición editorial de gran escala, jerarquía tipográfica marcada y espacios amplios. Combina azul institucional, amarillo de énfasis y una línea tricolor, con superficies cálidas para contenido humano. Los espacios de fotografía se entregan como marcadores descriptivos hasta recibir imágenes autorizadas.
+Composición editorial de gran escala, jerarquía tipográfica marcada y espacios amplios. Combina azul institucional, amarillo de énfasis y una línea tricolor, con fotografía institucional optimizada para web en el hero y las secciones territoriales.
 
 ## Mapa de secciones
 
@@ -13,7 +13,7 @@ Barra institucional, encabezado, hero, programa, funcionamiento en siete etapas,
 ## Componentes
 
 - Encabezado responsive y navegación por anclas.
-- Marcadores de imagen con proporción y texto alternativo sugerido.
+- Fotografías institucionales en WebP con dimensiones declaradas, carga diferida fuera del hero y textos alternativos descriptivos.
 - Secuencia de siete pasos.
 - Perfiles habilitados y cobertura territorial.
 - Acordeón accesible.
@@ -26,7 +26,6 @@ Barra institucional, encabezado, hero, programa, funcionamiento en siete etapas,
 - Perfiles autorizados para presentar reportes.
 - Estados, periodicidad y datos autorizados del mapa.
 - Canales oficiales, horario y responsable de contacto.
-- Fotografías territoriales auténticas y autorizadas.
 - Validación jurídica, técnica y UX del formulario.
 
 ## Uso local
