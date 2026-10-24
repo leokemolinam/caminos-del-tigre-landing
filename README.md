@@ -8,26 +8,26 @@ Composición editorial de gran escala, jerarquía tipográfica marcada y espacio
 
 ## Mapa de secciones
 
-Barra institucional, encabezado, hero, presentación, funcionamiento, público, cobertura, resultados, historias, preguntas frecuentes, llamado final, contacto y pie institucional.
+Barra institucional, encabezado, hero, programa, funcionamiento en siete etapas, público, cobertura, preguntas frecuentes, formulario de registro, contacto y pie institucional.
 
 ## Componentes
 
 - Encabezado responsive y navegación por anclas.
 - Marcadores de imagen con proporción y texto alternativo sugerido.
-- Secuencia de cinco pasos.
+- Secuencia de siete pasos.
 - Perfiles habilitados y cobertura territorial.
 - Acordeón accesible.
-- Formulario demostrativo con validación nativa.
+- Recorrido demostrativo del formulario de registro.
 - Pie institucional y mapa del sitio.
 
 ## Contenido pendiente
 
-- URL pública de registro y URL de consulta.
-- Cobertura y perfiles definitivos del lanzamiento.
-- Campos y requisitos definitivos del formulario.
-- Cifras verificadas, fecha de corte y fuente.
-- Fotografías, historias y autorizaciones.
-- Enlaces legales definitivos y fecha oficial de publicación.
+- URL pública de registro y reglas definitivas del formulario.
+- Perfiles autorizados para presentar reportes.
+- Estados, periodicidad y datos autorizados del mapa.
+- Canales oficiales, horario y responsable de contacto.
+- Fotografías territoriales auténticas y autorizadas.
+- Validación jurídica, técnica y UX del formulario.
 
 ## Uso local
 
