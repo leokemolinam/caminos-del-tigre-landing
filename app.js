@@ -3,6 +3,17 @@ const menu=document.querySelector('#site-nav');
 menuButton.addEventListener('click',()=>{const open=menuButton.getAttribute('aria-expanded')==='true';menuButton.setAttribute('aria-expanded',String(!open));menu.classList.toggle('open',!open)});
 menu.addEventListener('click',event=>{if(event.target.matches('a')){menu.classList.remove('open');menuButton.setAttribute('aria-expanded','false')}});
 
+const navigationLinks=[...menu.querySelectorAll('a[href^="#"]')];
+function setCurrentNavigation(hash=window.location.hash||'#inicio'){
+  navigationLinks.forEach(link=>{
+    if(link.getAttribute('href')===hash)link.setAttribute('aria-current','page');
+    else link.removeAttribute('aria-current');
+  });
+}
+navigationLinks.forEach(link=>link.addEventListener('click',()=>setCurrentNavigation(link.getAttribute('href'))));
+window.addEventListener('hashchange',()=>setCurrentNavigation());
+setCurrentNavigation();
+
 const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 if(reduced){document.querySelectorAll('.reveal').forEach(el=>el.classList.add('visible'))}else{const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el))}
 
